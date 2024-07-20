@@ -25,22 +25,27 @@ body {
 
 .menu-item:nth-child(1) {
     background-color: red;
+    border: 5px solid yellow
 }
 
 .menu-item:nth-child(2) {
     background-color: green;
+    border: 5px solid orangered
 }
 
 .menu-item:nth-child(3) {
     background-color: blue;
+    border: 10px solid yellow
 }
 
 .menu-item:nth-child(4) {
     background-color: orange;
+    border: 5px solid orangered
 }
 
 .menu-item:nth-child(5) {
     background-color: purple;
+    border: 5px solid yellow
 }
 
 /* Content */
@@ -71,13 +76,37 @@ body {
 /* Different background colors for right column items */
 .right-column-item:nth-child(1) {
     background-color: cyan;
+    border: solid red 5px
 }
 
 .right-column-item:nth-child(2) {
     background-color: lime;
+    border: 5px solid yellow
 }
 
-/* Add different colors for each row as needed */
+/* Different background colors for right column items */
+.right-column-item:nth-child(3) {
+    background-color: pink;
+    border: 5px solid red
+}
+
+.right-column-item:nth-child(4) {
+    background-color: lime;
+    border: 5px solid yellow
+}    
+
+.right-column-item:nth-child(5) {
+    background-color: cyan;
+    border: 5px solid red
+}  
+
+.right-column-item:nth-child(6) {
+    border: 5px solid yellow
+}  
+
+.right-column-item:nth-child(7) {
+    border: 5px solid red
+}  
 
 /* Footer */
 .footer {
